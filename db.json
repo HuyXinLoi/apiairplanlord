@@ -1,5 +1,46 @@
 {
-  
+  "users": [
+    {
+      "user_id": 1,
+      "username": "nguyen.an",
+      "password": "1",
+      "email": "nguyen.an@example.com",
+      "role": "customer",
+      "is_active": true
+    },
+    {
+      "user_id": 2,
+      "username": "le.trang",
+      "password": "hashed_password_2",
+      "email": "le.trang@example.com",
+      "role": "customer",
+      "is_active": true
+    },
+    {
+      "user_id": 3,
+      "username": "admin01",
+      "password": "hashed_password_3",
+      "email": "admin01@example.com",
+      "role": "admin",
+      "is_active": true
+    },
+    {
+      "user_id": 4,
+      "username": "pham.minh",
+      "password": "hashed_password_4",
+      "email": "pham.minh@example.com",
+      "role": "customer",
+      "is_active": false
+    },
+    {
+      "user_id": 5,
+      "username": "hoang.mai",
+      "password": "hashed_password_5",
+      "email": "hoang.mai@example.com",
+      "role": "customer",
+      "is_active": true
+    }
+  ],
   "customers": [
     {
       "customer_id": 1,
@@ -146,22 +187,5 @@
       "status": "paid"
     }
   ],
- 
-  
-  "discounts": [
-    {
-      "discount_id": 1,
-      "code": "XMAS2024",
-      "description": "Christmas discount",
-      "discount_percentage": 10,
-      "expiry_date": "2024-12-31"
-    },
-    {
-      "discount_id": 2,
-      "code": "NEWYEAR2024",
-      "description": "New Year discount",
-      "discount_percentage": 15,
-      "expiry_date": "2025-01-10"
-    }
-  ]
+
 }
